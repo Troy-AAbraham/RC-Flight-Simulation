@@ -1,0 +1,68 @@
+{
+   "simulation" : {
+      "constant_density" : 1,
+      "timestep" : 0.05,
+      "total_time" : 10.0
+   },
+    "aircraft" : {
+        "wing_area" : 185.0,
+        "wing_span" : 33.0,
+        "thrust" : {
+            "offset" : 0.0,
+            "T0" : 1500,
+            "T1" : -3.5,
+            "T2" : -0.0022,
+            "a" : 1.0
+        }
+    },
+    "initial" : {
+        "airspeed" : 175.0,
+        "altitude" : 500.0,
+        "weight" : 2500.0,
+        "climb" : 5.0,
+        "bank" : 20.0,
+        "heading" : 0.0
+    },
+    "reference" : {
+        "airspeed" : 180.0,
+        "density" : 0.0023769,
+        "elevator" : 1.0,
+        "lift" : 2800.0,
+        "Ixx" : 1000.0,
+        "Iyy" : 3000.0,
+        "Izz" : 3500.0,
+        "Ixy" : 0.0,
+        "Ixz" : 30.0,
+        "Iyz" : 0.0,
+        "hx" : 0.0,
+        "hy" : 0.0,
+        "hz" : 0.0,
+        "CD" : 0.05,
+        "CL,a" : 4.40,
+        "CD,a" : 0.35,
+        "CD,a,a" : 0.1,
+        "Cm,a" : -0.68,
+        "CY,b" : -0.560,
+        "Cl,b" : -0.075,
+        "Cn,b" : 0.070,
+        "CL,q" : 3.80,
+        "CD,q" : 0.01,
+        "Cm,q" : -9.95,
+        "CY,p" : 0.05,
+        "Cl,p" : -0.410,
+        "Cn,p" : -0.0575,
+        "CY,r" : 0.240,
+        "Cl,r" : 0.105,
+        "Cn,r" : -0.125,
+        "CL,de" : 0.350,
+        "CD,de" : 0.01,
+        "Cm,de" : -0.920,
+        "CY,da" : 0.01,
+        "Cl,da" : -0.135,
+        "Cn,da" : 0.0035,
+        "CY,dr" : 0.155,
+        "Cl,dr" : 0.105,
+        "Cn,dr" : -0.075,
+        "CD3" : 0.109
+    }
+}
