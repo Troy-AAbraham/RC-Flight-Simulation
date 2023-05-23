@@ -16,7 +16,7 @@ def main():
 
     #creates instance of the aircraft simulator class
     aircraft_sim = simi()
-    aircraft_sim.load_file(filename = "11.24_input_test.json")
+    aircraft_sim.load_file(filename = "./input_files/11.24_input_test.json")
     aircraft_sim.init_states()
     aircraft_sim.trim_func(trim = 0)
 

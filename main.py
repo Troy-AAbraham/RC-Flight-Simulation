@@ -32,7 +32,7 @@ t1 = time.time()
 
 aircraft_sim = simi()
 
-aircraft_sim.load_file(filename = "11.24_input.json")
+aircraft_sim.load_file(filename = "./input_files/11.24_input.json")
 aircraft_sim.init_states()
 aircraft_sim.trim_func(trim = 0)
 aircraft_sim.run_sim()
